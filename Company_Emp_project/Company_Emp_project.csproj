@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5702CDFF-9337-4EF9-B0A5-10097804D179}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Company_Emp_project</RootNamespace>
+    <AssemblyName>Company_Emp_project</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=9.0.0.4, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.9.0.4\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.9.0\lib\net462\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Dashboard.Designer.cs">
+      <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emp_Salary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emp_Salary.Designer.cs">
+      <DependentUpon>Emp_Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forget_pass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forget_pass.Designer.cs">
+      <DependentUpon>Forget_pass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generate_Payslip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generate_Payslip.Designer.cs">
+      <DependentUpon>Generate_Payslip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_window.Designer.cs">
+      <DependentUpon>Login_window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register_win.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register_win.Designer.cs">
+      <DependentUpon>Register_win.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary_Payslip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary_Payslip.Designer.cs">
+      <DependentUpon>Salary_Payslip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Password.Designer.cs">
+      <DependentUpon>Update_Password.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin_Dashboard.resx">
+      <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emp_Salary.resx">
+      <DependentUpon>Emp_Salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forget_pass.resx">
+      <DependentUpon>Forget_pass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generate_Payslip.resx">
+      <DependentUpon>Generate_Payslip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_window.resx">
+      <DependentUpon>Login_window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Register_win.resx">
+      <DependentUpon>Register_win.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary_Payslip.resx">
+      <DependentUpon>Salary_Payslip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Password.resx">
+      <DependentUpon>Update_Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
