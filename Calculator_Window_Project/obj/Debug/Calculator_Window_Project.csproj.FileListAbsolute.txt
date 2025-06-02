@@ -1,0 +1,16 @@
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\bin\Debug\Calculator_Window_Project.exe.config
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\bin\Debug\Calculator_Window_Project.exe
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\bin\Debug\Calculator_Window_Project.pdb
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\bin\Debug\Guna.UI2.dll
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\bin\Debug\System.Data.SqlClient.dll
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\bin\Debug\System.Data.SqlClient.xml
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\obj\Debug\Calculator_Window_Project.csproj.AssemblyReference.cache
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\obj\Debug\Calculator_Window_Project.Calculator_Win.resources
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\obj\Debug\Calculator_Window_Project.Properties.Resources.resources
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\obj\Debug\Calculator_Window_Project.csproj.GenerateResource.cache
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\obj\Debug\Calculator_Window_Project.csproj.CoreCompileInputs.cache
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\obj\Debug\Calculat.9B1C71A7.Up2Date
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\obj\Debug\Calculator_Window_Project.exe
+D:\CALCULATOR PROJECT\Calculator_Window_Project\Calculator_Window_Project\obj\Debug\Calculator_Window_Project.pdb
